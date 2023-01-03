@@ -16,7 +16,7 @@ sleep(3)
 navegador.find_element('xpath', '//*[@id="login_field"]').send_keys("rccimini@gmail.com")
 sleep(1)
 
-navegador.find_element('xpath', '//*[@id="password"]').send_keys("C@rne1983")
+navegador.find_element('xpath', '//*[@id="password"]').send_keys("")
 sleep(1)
 
 navegador.find_element('xpath', '/html/body/div[1]/div[3]/main/div/div[4]/form/div/input[11]').click()
