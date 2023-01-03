@@ -13,10 +13,10 @@ sleep(2)
 navegador.find_element('xpath', '/html/body/div[1]/div[1]/header/div/div[2]/div/div/div[2]/a').click()
 sleep(3)
 
-navegador.find_element('xpath', '//*[@id="login_field"]').send_keys("rccimini@gmail.com")
+navegador.find_element('xpath', '//*[@id="login_field"]').send_keys("email")
 sleep(1)
 
-navegador.find_element('xpath', '//*[@id="password"]').send_keys("")
+navegador.find_element('xpath', '//*[@id="password"]').send_keys("password")
 sleep(1)
 
 navegador.find_element('xpath', '/html/body/div[1]/div[3]/main/div/div[4]/form/div/input[11]').click()
